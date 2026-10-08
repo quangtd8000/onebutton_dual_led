@@ -92,7 +92,7 @@ void setup() {
     digitalWrite(LED2_PIN, LOW);
 
     // Thiet lap thoi gian nhan giu (long press) la 1000ms
-    button.setPressTicks(1000);
+    button.setPressMs(1000);
 
     // Gan su kien cho nut nhan
     button.attachClick(handleClick);
